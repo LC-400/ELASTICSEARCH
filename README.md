@@ -14,7 +14,7 @@ tee -a /etc/apt/sources.list.d/elastic-7.x.list
 
 sudo apt-get update && sudo apt-get install elasticsearch
 
-Configuration
+Configuration:
 By default the elasticsearch service is disabled. Enable with:
 sudo systemctl enable elasticsearch.service. Check status with:
 sudo systemctl status elasticsearch.service. Start the service with:
